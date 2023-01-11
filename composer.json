@@ -1,0 +1,19 @@
+{
+    "name": "dsw/tema6",
+    "description": "Pruebas con el tema 6 dependencias composer",
+    "type": "project",
+    "license": "GNU/GPL",
+    "autoload": {
+        "psr-4": {
+            "Dsw\\Tema6\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ale"
+        }
+    ],
+    "require": {
+        "endroid/qr-code": "^4.7"
+    }
+}
